@@ -8,16 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\ASP.NET-Core-SDK-fork\src\Sitecore.AspNetCore.SDK.ExperienceEditor\Sitecore.AspNetCore.SDK.ExperienceEditor.csproj" />
+    <ProjectReference Include="..\..\..\ASP.NET-Core-SDK-fork\src\Sitecore.AspNetCore.SDK.LayoutService.Client\Sitecore.AspNetCore.SDK.LayoutService.Client.csproj" />
+    <ProjectReference Include="..\..\..\ASP.NET-Core-SDK-fork\src\Sitecore.AspNetCore.SDK.RenderingEngine\Sitecore.AspNetCore.SDK.RenderingEngine.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Sitecore.AspNetCore.SDK.LayoutService.Client.Extensions" />
     <Using Include="Sitecore.AspNetCore.SDK.RenderingEngine.Extensions" />
     <Using Include="Sitecore.AspNetCore.SDK.ExperienceEditor.Extensions" />
     <Using Include="Sitecore.AspNetCore.Starter.Models" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Sitecore.AspNetCore.SDK.LayoutService.Client" />
-    <PackageReference Include="Sitecore.AspNetCore.SDK.RenderingEngine" />
-    <PackageReference Include="Sitecore.AspNetCore.SDK.ExperienceEditor" />
   </ItemGroup>
 
 </Project>
